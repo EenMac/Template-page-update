@@ -22,3 +22,6 @@ export default function Home() {
     </main>
   )
 }
+
+
+// Target eg: https://colorlib.com/wp/resume-website-templates/
