@@ -4,20 +4,25 @@ import styles from './page.module.css'
 import About from '@/components/about'
 import Experiences from '@/components/experiences'
 import Contact from '@/components/contact'
+import NavBar from '@/components/navBar'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <About/>
-        <Experiences/>
-        <Contact/>
-        <h1>Hello</h1>
-      </div>
-    </main>
+    <div>
+      <main className={styles.main}>
+        <NavBar/>
+        <div className={styles.description}>
+          <About/>
+          <Experiences/>
+          <Contact/>
+          <h1>Hello</h1>
+        </div>
+      </main>
+    </div>
+    
   )
 }
 
